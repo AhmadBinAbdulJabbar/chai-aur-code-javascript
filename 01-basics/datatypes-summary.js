@@ -44,3 +44,29 @@ console.log(typeof anotherId);
 console.log(typeof bigNumber);
 console.log(typeof myFunction); // function object
 
+// ******************************************************************
+
+// Stack (primitive type variables), Heap (Non - Primitive)
+
+// primitive type is copied on stack
+let myName = "ahmad";
+
+let anotherName = myName;
+anotherName = "ali";
+
+console.log(myName);
+console.log(anotherName);
+
+
+// non-primitive data type reference in heap
+let user1 = {
+    email: "user@google.com",
+    id: "user@id",
+}
+
+let user2 = user1;
+
+user2.email = "ahmad@gmail.com";
+
+console.log(user1);
+console.log(user2);
