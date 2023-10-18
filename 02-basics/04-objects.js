@@ -61,3 +61,39 @@ console.log(Object.entries(tinderUser)); // returns an array of entries
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));  // returns true or false (depending upon it contains the property or not).
 
 
+///////////////////////////////////////////////////////////////////
+// object de-structure and JSON API
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "ahmad",
+};
+
+// object de-structure 
+// course.courseInstructor;
+// const {courseInstructor} = course;
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+// used in react like this
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "fintech");
+
+// JSON
+
+// {
+//     "name": "ahmad",
+//     "coursename": "js in hindi",
+//     "price": "free",
+// }
+
+
+// [
+//     {},
+//     {},
+//     {},
+// ]
+
