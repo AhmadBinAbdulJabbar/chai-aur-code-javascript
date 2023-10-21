@@ -53,5 +53,3 @@ if (isUserloggedIn && debitCard) {
 if (loggedInFormGoogle && loggedInFromEmail) {
     console.log("User loggd in");
 }
-
-
