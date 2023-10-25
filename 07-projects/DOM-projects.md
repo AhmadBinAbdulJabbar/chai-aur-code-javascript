@@ -225,7 +225,7 @@ window.addEventListener('keydown', function (e) {
 
 ```
 
-#Project 6
+##Project 6
 ```javascript
 
 const start = document.querySelector('#start');
